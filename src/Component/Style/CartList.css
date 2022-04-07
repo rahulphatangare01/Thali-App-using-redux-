@@ -1,0 +1,51 @@
+.CARTLIST{
+    display:flexbox
+                      
+  }
+  .CARTLIST .cardSHOW{
+       box-shadow: 0px 0px 5px 13px rgb(206, 199, 199);
+       padding: 5px;
+       width: 325px;
+       float: left;
+  }
+  .cardSHOW{
+    
+       float: left;
+       background-color: grey;
+       border: 3px solid black;
+  }
+  .green{
+       color:white;
+       
+  }
+  .cardSHOW .quntity button{
+       padding: 0px 10px;
+       margin: 0px;
+       font-size: 25px;
+       font-weight: 600;
+       background-color: aqua;
+  border-radius: 5px
+      ;
+      
+  }
+  .cardSHOW .quntity input[type=text]{
+       width: 38px;
+       height:39px ;
+       text-align: center;
+      font-weight: 600;
+      font-size: 25px;
+      border: none;
+  }
+  .cardSHOW .fa-shopping-cart{
+     font-size: 20px;
+    color:black;
+     margin-top: 13px;
+     padding: 5px;
+     margin-left: 10%;
+     font-weight: 500;
+     background-color: rgb(60, 193, 250);
+  }
+  .CARTLIST  button:hover{
+       color: white;
+
+  }

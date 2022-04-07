@@ -1,0 +1,27 @@
+.NAVBAR a {
+    margin:  10px;
+  font-size: 24px;
+    text-decoration: none; 
+    font-weight: 600;
+      color: whitesmoke; 
+      
+          
+ }
+ .NAVBAR {
+    padding: 20px;
+    height: 75px;
+    border:solid  2px;
+    border-color: black;
+ }
+ .NAVBAR .logo{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+ 
+ }
+ .NAVBAR .cart {
+  font-size: 50px;
+ }
+ .NAVBAR a:hover{
+    color: aqua;
+ }
